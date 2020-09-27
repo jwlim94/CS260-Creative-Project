@@ -1,0 +1,644 @@
+/* Navigation bar */
+.bg {
+  background-color: #18224b !important;
+}
+
+#navbarNav {
+  background-color: #18224b !important;
+}
+
+.nav-link {
+  font-size: 1.4em;
+  margin-top: 48px;
+}
+
+
+.workout {
+  padding: 10px;
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+
+.smilingMan {
+  padding: 10px;
+  display: block;
+  min-width: 800px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+
+.home-text,
+.main,
+.getStarted,
+.searchEngine {
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: white;
+  font-weight: 200;
+  position: absolute;
+  font-size: 30px;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.getStarted {
+  color: #f4e022;
+  top: 280px;
+}
+
+.getStarted:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.searchEngine {
+  position: absolute;
+  top: 250px;
+  font-size: 20px;
+  background-color: white;
+  border: 2px solid #18224b;
+  min-width: 500px;
+  width: 60%;
+  height: 50px;
+}
+
+.searchIcon {
+  width: 30px;
+  height: 20px;
+  z-index: 1;
+}
+
+.question {
+  color: #6c7789;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.userChoices {
+  background-color: #18224b;
+}
+
+.icon {
+  width: 30%;
+  margin: 10px;
+}
+
+.icon-container {
+  width: 100%;
+  margin: 10px 1px;
+  background-color: white;
+  display: flex;
+}
+
+.icon-container:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.choice {
+  color: black;
+  display: flex;
+  align-items: center;
+}
+/* FOOTER */
+.bottom a {
+  font-family: Lucida Console;
+  color: white;
+}
+
+.bottom a:visited {
+  color: white;
+}
+
+.bottom a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.fa-github {
+  color: white;
+}
+
+/* diet */
+.diet-container {
+  border: 5px solid #F4E022;
+  width: 100%;
+  height: 1000px;
+  background-color: #F8F8F8;
+}
+
+.diet-heading {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.diet-heading-title {
+  font-size: 1.8em;
+  font-family: impact;
+}
+
+.diet-program {
+  width: 100%;
+  height: 75%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.diet-program-left,
+.diet-program-center,
+.diet-program-right {
+  width: 400px;
+  min-width: 500px;
+  height: 740px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.program-image {
+  border: 2px solid #18224B;
+  width: 100%;
+  height: 30%;
+}
+
+.program-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.program-title {
+  border: 2px solid #18224B;
+  padding-top: 20px;
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: impact;
+  font-size: 1.6em;
+  letter-spacing: 1.8px;
+}
+
+.program-configuration {
+  border: 2px solid #18224B;
+  width: 100%;
+  height: 30%;
+  padding: 20px;
+  font-family: Lucida Console;
+}
+
+.program-recommendation {
+  border: 2px solid #18224B;
+  width: 100%;
+  height: 20%;
+  padding: 20px;
+  font-family: Lucida Console;
+}
+
+.program-configuration h5,
+.program-recommendation h5 {
+  padding-bottom: 20px;
+  font-family: Arial black;
+}
+
+.program-configuration p,
+.program-recommendation p {
+  font-size: 0.9em;
+  line-height: 80%;
+  letter-spacing: -1px;
+}
+
+.program-configuration p::before,
+.program-recommendation p::before {
+  content: "\2022  ";
+}
+
+.trainer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 100px 100px;
+  padding: 10px;
+  /* margin-left: 100px; */
+  line-height: 20px;
+  font-family: Lucida Console;
+}
+
+.trainer-slogan {
+  font-family: Lucida Console;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.container-image {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%
+}
+
+.image .text {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container h2 {
+  text-align: center;
+  font-family: 'Secular One', sans-serif;
+  font-size: 3em;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: white;
+  position: static;
+  height: auto;
+  overflow: auto;
+}
+
+.sidebar .home {
+  background-color: #D3D3D3;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: yellow;
+  text-decoration: none;
+}
+
+div .content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+.footer-copyright {
+  background-color: white;
+}
+
+
+@media only screen and (max-width: 1650px) {
+
+  .diet-container,
+    {
+    width: 1650px;
+  }
+
+  .page-footer,
+  .navbar {
+    width: 1650px;
+  }
+}
+
+@media screen and (max-width: 1390px) {
+  .sidebar .home {
+    background-color: #D3D3D3;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .sidebar a {
+    float: left;
+  }
+
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* index.html */
+  .workout,
+  .home-text,
+  .getStarted {
+    display: flex;
+    position: relative;
+    top: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .workout {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-container {
+    background-color: #18224b;
+  }
+
+  .home-text {
+    color: white;
+  }
+
+  .getStarted:hover {
+    color: white;
+    justify-content: center;
+  }
+
+  /* service.html */
+  .searchEngine,
+  .smilingMan,
+  .main {
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    height: 100%;
+  }
+
+  .smilingMan {
+    display: block;
+    min-width: 0;
+    width: 100%;
+    height: 300px;
+  }
+
+  .userChoices {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .searchIcon {
+    width: 30px;
+  }
+
+  .main,
+  .searchEngine {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    color: black;
+    min-width: 0;
+    padding: 5px;
+    top: auto;
+    transform: none;
+  }
+
+  .main {
+    background-color: #18224b;
+    color: #fff;
+    justify-content: center;
+  }
+
+  .icon {
+    width: 250px;
+  }
+
+  .navbar,
+  .page-footer {
+    width: 100%;
+  }
+
+  .trainer-container {
+    width: 100%;
+  }
+
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+
+  .sidebar .home {
+    background-color: #D3D3D3;
+  }
+  .calebImg,
+  .jungjinImg {
+    height: 120px;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 501px) and (max-width: 995px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* index.html */
+  .workout,
+  .home-text,
+  .getStarted {
+    display: flex;
+    position: relative;
+    top: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .workout {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-container {
+    background-color: #18224b;
+  }
+
+  .home-text {
+    color: white;
+  }
+
+  .getStarted:hover {
+    color: white;
+    justify-content: center;
+  }
+
+  .searchEngine,
+  .smilingMan,
+  .main {
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    height: 100%;
+  }
+
+  .smilingMan {
+    display: block;
+    min-width: 0;
+    width: 100%;
+    height: 300px;
+  }
+
+  .userChoices {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .searchIcon {
+    width: 30px;
+  }
+
+  .main,
+  .searchEngine {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    color: black;
+    min-width: 0;
+    padding: 5px;
+    top: auto;
+    transform: none;
+  }
+
+  .main {
+    background-color: #18224b;
+    color: #fff;
+    justify-content: center;
+  }
+
+  .searchEngine {
+    border-bottom: 12px solid #18224b;
+  }
+
+  .icon {
+    width: 50%;
+    height: 100%;
+  }
+
+  .userChoices {
+    display: inline-flex;
+    background-color: white;
+  }
+
+  .icon-container {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 50%;
+  }
+
+  .navbar,
+  .page-footer {
+    max-width: 100%;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 996px) {
+
+  /* index.html */
+  .workout {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .searchIcon {
+    width: 30px;
+  }
+
+  .main {
+    color: #fff;
+    justify-content: center;
+  }
+
+  .icon {
+    width: 40%;
+    height: 100%;
+  }
+
+  .userChoices {
+    display: inline-flex;
+    background-color: white;
+  }
+
+  .smilingMan {
+    width: 100%;
+    padding: 0;
+  }
+
+  .icon-container {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 50%;
+  }
+
+  .navbar,
+  .page-footer {
+    max-width: 100%;
+  }
+
+  .trainer-container {
+    gap: 100px 200px;
+    padding: 50px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 1349px) {
+  .diet-container {
+    border: 0;
+  }
+
+  .diet-program {
+    display: inline;
+  }
+
+  .diet-program-left,
+  .diet-program-center,
+  .diet-program-right {
+    margin: 0 auto;
+  }
+  .diet-page-footer {
+    margin-top: 1450px;
+  }
+}
+
+@media only screen and (min-width: 1350px) and (max-width: 1620px) {
+  .diet-program-left,
+  .diet-program-center,
+  .diet-program-right {
+    min-width: 400px;
+  }
+}
+
+/* Icon Maker: <a href="https://www.flaticon.com/kr/authors/bqlqn" title="bqlqn">bqlqn</a> from <a href="https://www.flaticon.com/kr/" title="Flaticon"> www.flaticon.com</a> */
+/* Icon Maker: <a href="https://www.flaticon.com/kr/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/kr/" title="Flaticon"> www.flaticon.com</a> */
