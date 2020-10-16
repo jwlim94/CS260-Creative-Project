@@ -1,0 +1,56 @@
+body {
+  height: 100%;
+  background-color: #e8f9ec;
+}
+
+#page {
+  margin: 15px;
+  margin-top: 25px;
+}
+
+#dietContainer {
+  display: flex;
+}
+
+#dietInputText {
+  font-size: 1.40em;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#dietInput {
+  height: 24px;
+  width: 120px;
+}
+
+#dietSubmit {
+  height: 30px;
+  margin-left: 5px;
+  font-size: 1.1em;
+}
+
+#dietResultText {
+  margin-top: 5px;
+  font-size: 1.2em;
+  font-family: courier;
+  font-weight: bold;
+  opacity: 0.4;
+}
+
+#dietName {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+#dietCalorie,
+#dietSodium,
+#dietTotalFat,
+#dietCholesterol,
+#dietProtein {
+  font-family: courier;
+  letter-spacing: -0.5px;
+  font-size: 1.05em;
+  line-height: 140%;
+}
