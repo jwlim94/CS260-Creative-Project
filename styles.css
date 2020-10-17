@@ -323,7 +323,10 @@ div .content {
   background-color: white;
 }
 
-
+.card-title {
+  font-size: 40px !important;
+  font-family: 'Open Sans', sans-serif;
+}
 @media only screen and (max-width: 1650px) {
   .diet-container,
     {
