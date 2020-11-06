@@ -174,3 +174,5 @@ let mock = [{
     membership: "basic"
   }
 ]
+
+export default mock;
